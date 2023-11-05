@@ -139,7 +139,7 @@ export default function Form({
             {state.errors?.status ? (
               <div
                 id='status-error'
-                aria-level='polite'
+                aria-live='polite'
                 className='mt-2 text-sm text-red-500'
               >
                 {state.errors.status.map((error: string) => (
